@@ -1,0 +1,191 @@
+/* Header Social Media Links */
+header .social-links a {
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  header .social-links a:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
+  }
+  
+  /* Container styling for flex layout */
+  header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* About, Experience, Skills and Project sections */
+  #about, #experience, #skills, #projects {
+    padding: 5rem 0;
+  }
+  
+  #experience, #skills {
+    background-color: #f9f9f9;
+  }
+  
+  #contact {
+    background-color: #343a40;
+  }
+  
+  #projects .card {
+    transition: transform 0.3s ease;
+  }
+  
+  #projects .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  footer {
+    background-color: #343a40;
+    padding: 1rem 0;
+  }
+  
+  footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+ /* Ensure the buttons are spaced apart */
+.content .d-flex {
+    width: 100%; /* Ensure the container takes full width */
+    align-items: center; /* Align items vertically */
+  }
+  
+  /* Style for the contact link */
+  .content .d-flex a.btn-link {
+    color: white; /* Ensure the contact link is visible */
+  }
+  
+  .content .d-flex a.btn-link:hover {
+    text-decoration: underline; /* Hover effect for the contact link */
+  }
+  
+  /* Custom styles for Education and Experience icons, cards, and shadow */
+.experience-icon img,
+.edu-logo img {
+  width: 50px; /* Adjust size as needed */
+  height: 50px; /* Adjust size as needed */
+  border-radius: 50%; /* Circle shape */
+}
+
+.card {
+  border-radius: 10px; /* Rounded corners for the cards */
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h4 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+h5 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+h6 {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+}
+
+ul {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+}
+
+.text-start {
+  text-align: left;
+}
+
+/* Education Logo Alignment and Spacing */
+.edu-logo {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.experience-icon {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+/* Adjusting Text Alignment */
+.ms-3 {
+  margin-left: 1rem;
+}
+
+/* Improve spacing in general */
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+.lead {
+  font-size: 1.2rem;
+}
+
+.badge {
+    background-color: transparent !important;
+    color: inherit;
+  }
+  
+
+/*------*/
+.card-text ul {
+  padding-left: 20px; /* Ensure proper indentation for list items */
+}
+
+.card-text ul li {
+  margin-bottom: 10px; /* Add spacing between list items */
+}
+
+.card-text {
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For Internet Explorer and Edge */
+}
+
+.card-text::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+#certifications .card {
+  transition: transform 0.3s ease;
+}
+
+#certifications .card:hover {
+  transform: translateY(-5px);
+}
+
+#certifications img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ddd;
+}
+
+#certifications .card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+#certifications .btn {
+  border-radius: 20px;
+}
